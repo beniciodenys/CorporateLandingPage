@@ -1,172 +1,260 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Exo', sans-serif;
-    font-weight: 400;
-    /* border: 1px solid #000; */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  /* border: 1px solid #000; */
 }
 
-.main-container{
-    margin: 0 auto;
-    /* min-width: 1400px; */
-    max-width: 2000px;
+.main-container {
+  margin: 0 auto;
+  /* min-width: 1400px; */
+  max-width: 2000px;
 }
 
-/* style for Header */
-header{
-    background: url(../images/header-bg.jpg) center / cover no-repeat;
-    margin: 0 auto;
-    position: relative;
-    height: 812px;
+/* styles for HEADER */
+header {
+  background: url(../images/header-bg.jpg) center / cover no-repeat;
+  margin: 0 auto;
+  position: relative;
+  height: 812px;
 }
-.header-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-.header-title{
-    color: #282828;
-    font-size: 60px;
-    font-weight: 100;
+.header-title {
+  color: #282828;
+  font-size: 60px;
+  font-weight: 100;
 }
-.header-icon{
-    margin: 40px 0;
-    opacity: 60%;
+.header-icon {
+  margin: 40px 0;
+  opacity: 60%;
 }
-.header-button{
-    min-width: 195px;
-    min-height: 50px;
-    color: white;
-    background-color: #ff6d6d;
-    font-weight: 400;
-    letter-spacing: 2px;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 16px;
-    border-radius: 3px;
+.header-button {
+  min-width: 195px;
+  min-height: 50px;
+  color: white;
+  background-color: #ff6d6d;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 3px;
 }
-.header-note{ color: #8c8c8f; font-size: 14px;}
-
-/* section2 */
-#sec-2.section{
-    height: 725px;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 5fr 3fr;
-}
-#sec-2 .section-container{
-    background-color: white;
-    position: relative;
-}
-#sec-2 .section-container-text{
-    width: 560px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-#sec-2 .section-placeHolder{
-    background-color: #ececec;
-    position: relative;
-}
-#sec-2 .section-placeHolder::after{
-    content: '';
-    width: 100%;
-    height: 69.999%;
-    background: linear-gradient(to right bottom, transparent 50%, #fb8686 50%);
-    position: absolute;
-    bottom: 0%;
-}
-.section-supTitle{
-    color: #ff6d6d;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 4px;
-}
-.section-title{
-    font-size: 40px;
-    margin-bottom: 48px;
-}
-#redText{ color: #ff6d6d; letter-spacing: 4px; font-weight: 500;}
-#comment{ color: #8c8c8f; font-size: 16px; font-weight: 500;}
-
-#sec-3.section{
-    height: 675px;
-    background-color: #f6f5f3;
-    overflow: hidden;
-}
-#sec-3.section-container{position: relative;}
-#sec-3.section-container-text{
-    text-align: center;
-    width: 1120px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 40%)
+.header-note {
+  color: #8c8c8f;
+  font-size: 14px;
 }
 
-.section-3-background{position: relative; height: 100%;}
-#section-3-background-img-1{
-    position: absolute;
-    left: 135px;
+/*  styles for SECTION2 section  */
+#sec-2.section {
+  height: 725px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
 }
-#section-3-background-img-2{
-    position: absolute;
-    right: 150px;
+#sec-2 .section-container {
+  background-color: white;
+  position: relative;
 }
-#section-3-background-img-3{
-    position: absolute;
-    left: 90%;
-    margin-right: -50%;
-    transform: translate(-50%, 611%)    /* 610% ; узнать размеры ! */
-    /* display: none;               !!!!    */
+#sec-2 .section-container-text {
+  width: 560px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
-.cards-container{
+#sec-2 .section-placeHolder {
+  background-color: #ececec;
+  position: relative;
+}
+#sec-2 .section-placeHolder::after {
+  content: "";
+  width: 100%;
+  height: 69.999%;
+  background: linear-gradient(to right bottom, transparent 50%, #fb8686 50%);
+  position: absolute;
+  bottom: 0%;
+}
+.section-supTitle {
+  color: #ff6d6d;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+.section-title {
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+#redText {
+  color: #ff6d6d;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+#comment {
+  color: #8c8c8f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*  styles for SECTION3 section  */
+#sec-3.section {
+  height: 675px;
+  background-color: #f6f5f3;
+  overflow: hidden;
+}
+#sec-3.section-container {
+  position: relative;
+}
+#sec-3.section-container-text {
+  text-align: center;
+  width: 1120px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 40%);
+}
+
+.section-3-background {
+  position: relative;
+  height: 100%;
+}
+#section-3-background-img-1 {
+  position: absolute;
+  left: 135px;
+}
+#section-3-background-img-2 {
+  position: absolute;
+  right: 150px;
+}
+#section-3-background-img-3 {
+  position: absolute;
+  left: 90%;
+  margin-right: -50%;
+  transform: translate(-50%, 611%); /* 610% ; узнать размеры ! */
+  /* display: none;               !!!!    */
+}
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 342px;
+}
+.card-icon {
+  margin: 25px;
+}
+#text-bold {
+  font-weight: 600;
+}
+
+/*  styles for DESCRIPTION section  */
+
+#description.section {
+  height: 550px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 740px auto;
+  overflow: hidden;
+}
+#description .section-placeHolder {
+  position: relative;
+}
+#description .section-placeHolder::before {
+  content: "";
+  width: 86.8%;
+  height: 635px;
+  background: linear-gradient(to left bottom, transparent 50%, #fb8686 50%);
+  position: absolute;
+  bottom: 0%;
+}
+#section-description-background-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.absolute-center {
+  width: 492px;
+  height: 260px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#description .section-container-text {
+  position: relative;
+}
+
+/*  styles for CLIENTS section  */
+
+#clients.section {
+  height: 650px;
+  background-color: black;
+}
+#clients .section-container {
+  background: url(../images/clients-bg.png) center / cover no-repeat;
+  height: 100%;
+  position: relative;
+  /* border: 3px solid #000; */
+}
+#clients .section-content {
+  position: absolute;
+  width: 1100px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.section-commentsContainer {  
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 111px;
 }
-.card{
-    width: 342px;
+#clients .section-commentCard {
+  width: 326px;
+  height: 275px;
+  text-align: center;
 }
-.card-icon{margin: 25px;}
-#text-bold{font-weight: 600;}
-
-/*  description */
-
-#description.section{
-    height: 550px;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 740px auto;
-    overflow: hidden;
+.section-commentCard-img {
+  margin-bottom: 20px;
 }
-#description .section-placeHolder{position: relative;}
-#description .section-placeHolder::before{
-    content: '';
-    width: 86.8%;
-    height: 635px;
-    background: linear-gradient(to left bottom, transparent 50%, #fb8686 50%);
-    position: absolute;
-    bottom: 0%;
+.section-commentCard-name {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  line-height: 18px;
+  margin-bottom: 14px;
 }
-#section-description-background-img{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.section-commentCard-position {
+  color: #ff6d6d;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 37px;
+  line-height: 14px;
 }
-.absolute-center{
-    width: 492px;
-    height: 260px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);}
-#description .section-container-text{
-    position: relative;
+.comment {
+  color: #c7c8c9;
+  font-size: 16px;
+  font-weight: 500;
+}
+.section-partnerLogo {
+  filter: brightness(0) invert(1);
+  opacity: 60%;
+}
+#clients .section-partnersLogos{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
