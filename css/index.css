@@ -8,11 +8,11 @@
 
 .main-container {
   margin: 0 auto;
-  /* min-width: 1400px; */
+  /* min-width: 1440px; */
   max-width: 2000px;
 }
 
-/* styles for HEADER */
+/*  styles for HEADER section  */
 header {
   background: url(../images/header-bg.jpg) center / cover no-repeat;
   margin: 0 auto;
@@ -283,5 +283,79 @@ header {
 }
 #browser-img {
   margin-bottom: 0;
+}
+
+/*  styles for TRY NOW section  */
+#tryNow.section{
+  height: 467px;
+  background-color: #323969;
+  position: relative;
+}
+#tryNow .section-container{
+  width: 1140px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#tryNow .section-container-text{
+  text-align: center;
+}
+#tryNow .section-title{
+  color: #fff;
+}
+.form-email{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 52px;
+}
+.form-email-input{
+  width: 233px;
+  height: 47px;
+  color: white;
+  background-color: #474d78;
+  border: 1px solid #999cb4;
+  border-radius: 1px;
+  padding-left: 28px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.form-email-input::placeholder {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  opacity: 1;
+}
+.form-email-button{
+  width: 100%;
+  height: 47px;
+  color: #fff;
+  background-color: #ff6d6d;
+  border: 1px solid #ff6d6d;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+.form-email-submit{
+  width: 257px;
+  text-align: center;
+}
+#form-email.comment{
+  color: #fff;
+  margin-bottom: 41px;
+  position: relative;
+}
+#form-email.comment::before{
+  position: absolute;
+  content: url(../images/tryNow-arrow.png);
+  left:0px;
+}
+#form-email-sub.comment{
+  text-align: center;
+}
+#form-email-sub a{
+  color: inherit;
 }
 
