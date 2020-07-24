@@ -31,9 +31,13 @@ header {
   font-size: 60px;
   font-weight: 100;
 }
-.header-icon {
+.header-icon img{
   margin: 40px 0;
   opacity: 60%;
+  transition: 500ms all ease;
+}
+.header-icon img:hover{
+  opacity: 100%;
 }
 .header-button {
   min-width: 195px;
@@ -42,11 +46,17 @@ header {
   background-color: #ff6d6d;
   font-weight: 400;
   letter-spacing: 2px;
-  border: none;
+  border: 1px solid #ff6d6d; 
+  border-radius: 3px;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 16px;
-  border-radius: 3px;
+  transition: 500ms all ease;
+}
+.header-button:hover{
+  background-color: #ff6d6d00;
+  border: 1px solid #ff6d6d;
+  color: #ff6d6d;
 }
 .header-note {
   color: #8c8c8f;
@@ -252,7 +262,9 @@ header {
 .section-partnerLogo {
   filter: brightness(0) invert(1);
   opacity: 60%;
+  transition: 500ms all ease;
 }
+.section-partnerLogo:hover{opacity: 100%;}
 #clients .section-partnersLogos {
   align-items: center;
   display: flex;
@@ -337,6 +349,12 @@ header {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
+  transition: 500ms all ease;
+}
+.form-email-button:hover{
+  background-color: #e63737;
+  border: 1px solid #e63737;
 }
 .form-email-submit{
   width: 257px;
