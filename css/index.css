@@ -124,6 +124,8 @@ header {
 }
 #sec-3.section__container {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 #sec-3.section__container-text {
   text-align: center;
@@ -131,13 +133,13 @@ header {
   position: absolute;
   top: 40%;
   left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 40%);
+  /* margin-right: -50%; */
+  transform: translate(-50%, -40%);
 }
-
 .section-3-background {
-  position: relative;
+  position: absolute;
   height: 100%;
+  width: 100%;
 }
 #section-3-background-img-1 {
   position: absolute;
@@ -151,17 +153,20 @@ header {
 }
 #section-3-background-img-3 {
   position: absolute;
+  top:100%;
   left: 90%;
-  margin-right: -50%;
-  transform: translate(-50%, 611%); /* 610% ; узнать размеры ! */
+  transform: translate(-90%, -100%); /* 610% ; узнать размеры ! */
   object-fit: contain;
 }
 .cards-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .card {
   width: 342px;
+  height: 250px;
+  margin: 0 20px;
 }
 .card-icon {
   margin: 25px;
