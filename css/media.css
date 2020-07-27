@@ -60,9 +60,7 @@
 @media screen and (max-width: 763px){
     /*  section-3   */
     #sec-3.section{ height: 1150px;}
-    #clients.section {
-        height: 1150px;
-      }
+    
 }
 
 @media screen and (max-width: 736px){
@@ -73,7 +71,9 @@
 
 @media screen and (max-width: 618px){
     /*  clients */
-    .section-commentsContainer{flex-direction: column;align-items: center;}
+    #clients.section {height: 1150px;}
+    .section-commentsContainer{flex-direction: column;align-items: center;margin-bottom: 50px;}
+    #clients .section-commentCard{margin-bottom: 20px;}
 }
 
 @media screen and (max-width: 525px){
