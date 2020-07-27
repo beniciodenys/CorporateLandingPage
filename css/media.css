@@ -1,0 +1,7 @@
+@media screen and (max-width: 1342px){
+    .header-content{top:40%;}
+}
+
+@media screen and (max-width: 736px){
+    .header-title{font-size: 8vw;}
+}

@@ -377,3 +377,100 @@ header {
   color: inherit;
 }
 
+/*  styles for FOOTER */
+footer{
+  height: 332px;
+  background-color: white;
+}
+footer::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(to right bottom, transparent 50%, #fb8686 50%);
+  bottom: 0%;
+}
+
+/*  styles for FOOTER */
+#footer.section{
+  display: grid;
+  grid-template-columns: auto 22.5%;
+  color: #8c8c8f;
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer .section-placeHolder{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#footer .section-placeHolder::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right top, transparent 50%, #fb8686 50%);
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+}
+#footer .section-container{position: relative;}
+#footer .section-content{
+  width: 953px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__title{color: #282828; margin-bottom: 20px;}
+.footer__text{
+  font-size: 14px;
+  line-height: 25px;
+}
+.footer__interactable{transition: 100ms all ease; cursor: pointer;}
+.footer__interactable:hover{color: #282828;}
+.tel-number{text-decoration: none; color: inherit;}
+.tel-number:hover{text-decoration: underline;}
+.footer__address{
+  width: 233px;
+  height: 100%;
+}
+.footer_email-input{
+  position: relative;
+  width: 265px;
+  height: 50px;
+  border: 1px solid #8c8c8f;
+  border-radius: 3px;
+}
+.footer__email-input-item{
+  width: 100%; 
+  height: 100%; 
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+}
+.footer__email-input-item::placeholder{text-transform: uppercase;}
+.footer__email-submit{
+  width: 52px; 
+  height: 52px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(5%, -50%);
+  background-color: #ff6d6d;
+  border: none;
+  border-radius: 3px;
+  background-image: url(../images/submit-btn-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 300ms all ease;
+}
+.footer__email-submit:hover{
+background-color: #282828;
+}
