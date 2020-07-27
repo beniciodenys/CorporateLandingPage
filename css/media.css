@@ -21,6 +21,9 @@
         left: 0;
         transform: translate(0, -100%);
     }
+    /*  tryNow  */
+    #tryNow .section__container{padding: 81px 0;}
+    .form-email{justify-content: space-evenly;}
 }
 
 @media screen and (max-width: 1100px){

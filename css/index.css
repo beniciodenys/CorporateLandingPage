@@ -3,7 +3,7 @@
   padding: 0;
   font-family: "Exo", sans-serif;
   font-weight: 400;
-  /* border: 1px solid #000; */
+  border: 1px solid #000;
 }
 
 .main-container {
@@ -313,16 +313,18 @@ header {
 
 /*  styles for TRY NOW section  */
 #tryNow.section{
-  height: 467px;
+  /*height: 467px;*/
   background-color: #323969;
   position: relative;
 }
 #tryNow .section__container{
-  width: 1140px;
+  /*width: 1140px;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  margin: auto;
+  padding: 81px 135px;
 }
 #tryNow .section__container-text{
   text-align: center;
@@ -334,7 +336,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 52px;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
 }
 .form-email-input{
   width: 233px;
@@ -346,6 +349,7 @@ header {
   padding-left: 28px;
   font-weight: 500;
   font-size: 16px;
+  margin: 0 15px 50px;
 }
 .form-email-input::placeholder {
   color: white;
@@ -373,6 +377,7 @@ header {
 .form-email-submit{
   width: 257px;
   text-align: center;
+  margin: 0 16px 50px;
 }
 #form-email.comment{
   color: #fff;
