@@ -284,28 +284,31 @@ header {
 
 /*  styles for BROWSER section  */
 #browser.section {
-  height: 755px;
+  height: auto;/*755px*/
   position: relative;
   background-color: #f6f5f3;
 }
 #browser .section__container {
-  height: 646px;
-  position: absolute;
+  /*height: 646px;*/
+  width: 648px;
+  margin: auto;
+  padding-top: 109px;
+  /*position: absolute;
   left: 50%;
   top: 755px;
   transform: translate(-50%, -100%);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;*/
 }
 #browser .section__container-text {
-  width: 648px;
+  /*width: 648px;*/
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto auto 111px;
 }
 #browser-img {
   margin-bottom: 0;
+  width: 100%;
 }
 
 /*  styles for TRY NOW section  */
