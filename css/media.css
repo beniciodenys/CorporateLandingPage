@@ -1,7 +1,38 @@
 @media screen and (max-width: 1342px){
+    /*  header  */
     .header-content{top:40%;}
 }
 
+@media screen and (max-width: 1020px){
+    /*  section-2   */
+    #sec-2.section{ grid-template-columns: 1fr 0fr; position: relative;}
+    #sec-2.section::after{
+        content: "";
+        position: absolute;
+        background: linear-gradient(to right bottom, transparent 50%, #fb8686 50%);
+        width: 205px;
+        height: 205px;
+        bottom: 0%;
+        right: 0%;
+    }
+    #sec-2 .section-container-text{ width: 75vw;}
+    #sec-2 .section-placeHolder{display: none;}
+}
+
 @media screen and (max-width: 736px){
+    /*  header  */
     .header-title{font-size: 8vw;}
+}
+
+@media screen and (max-width: 510px){
+    /*  section-2   */
+    #sec-2.section{ height: 600px;}
+    .section-supTitle{font-size: 14px;}
+    .section-title{font-size: 8vw;}
+    #comment{font-size: 14px;}
+    #sec-2 .section-container-text{top: 50px; transform: translate(-50%, 0%);}
+    #sec-2.section::after{
+        width: 100px;
+        height: 100px;
+    }
 }
