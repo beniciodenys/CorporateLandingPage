@@ -69,6 +69,11 @@
     #browser .section__container{width: 75vw;}
     #browser .section__container-text{width: 100%;}
     #browser-img{object-fit: contain;object-position: bottom;}
+    /*  footer */
+    #footer .section-content{
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
 }
 
 @media screen and (max-width: 763px){
