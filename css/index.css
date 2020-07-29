@@ -398,7 +398,7 @@ header {
 
 /*  styles for FOOTER */
 footer{
-  height: 332px;
+  /*height: 332px;*/
   background-color: white;
 }
 footer::after {
@@ -433,15 +433,11 @@ footer::after {
 }
 #footer .section__container{position: relative;}
 #footer .section-content{
-  width: 953px;
-  height: 150px;
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(0%, -50%);
+  margin: 85px 0 100px 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .footer__title{color: #282828; margin-bottom: 20px;}
 .footer__text{
@@ -455,6 +451,7 @@ footer::after {
 .footer__address{
   width: 233px;
   height: 100%;
+  margin: 0 69px 0 150px;
 }
 .footer_email-input{
   position: relative;
@@ -493,3 +490,12 @@ footer::after {
 .footer__email-submit:hover{
 background-color: #282828;
 }
+.footer__support{
+  margin: 0 111px 0 0;
+  width: 86px;
+}
+.footer__about-us{
+  margin: 0 95px 0 0;
+  width: 96px;
+}
+.footer__block{order: 2;}

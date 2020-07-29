@@ -24,6 +24,8 @@
     /*  tryNow  */
     #tryNow .section__container{padding: 81px 0;}
     .form-email{justify-content: space-evenly;}
+    /*  footer  */
+    .footer__block{margin: 20px auto auto;}
 }
 
 @media screen and (max-width: 1100px){
@@ -102,4 +104,9 @@
     /*  section-3   */
     #section-3-background-img-1{width: 150px;}
     #section-3-background-img-2{width: 100px;}
+    /*  footer   */
+    #footer .section-content{
+        margin: 20px 0px 40px 20px;
+    }
+    .footer__get-newsletter{order: 1;}
 }
