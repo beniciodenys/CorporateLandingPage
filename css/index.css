@@ -433,7 +433,9 @@ footer::after {
 }
 #footer .section__container{position: relative;}
 #footer .section-content{
-  margin: 85px 0 100px 20px;
+  width: 969px;
+  float: right;
+  margin: 85px 0 100px 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -451,7 +453,7 @@ footer::after {
 .footer__address{
   width: 233px;
   height: 100%;
-  margin: 0 69px 0 150px;
+  margin: 0 69px 0 0;
 }
 .footer_email-input{
   position: relative;
